@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local dependencies
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging/build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Streamlit and local runtime state
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
