@@ -32,7 +32,7 @@ streamlit run app.py
 
 Then open `http://localhost:8501`.
 
-On first run, the app downloads `yolov8x-oiv7.pt` from the Hugging Face repo `aldencm/image-detector`. Streamlit caches the loaded model for the session.
+On first run, the app downloads `yolov8x-oiv7.pt` from the Hugging Face repo `Blue2020Panda/YOLOv8OIV7`. Streamlit caches the loaded model for the session.
 
 ## Usage
 
