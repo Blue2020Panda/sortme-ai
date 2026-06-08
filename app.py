@@ -103,7 +103,7 @@ def load_yolo_model() -> YOLO:
     """
     try:
         model_path = hf_hub_download(
-            repo_id="Blue2020Panda/YOLOv8sOIV7",
+            repo_id="Blue2020Panda/YOLOv8nOIV7",
             filename="yolov8n-oiv7.pt",
         )
         model = YOLO(model_path)
