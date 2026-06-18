@@ -118,7 +118,7 @@ def load_yolo_model() -> YOLO:
 # ---------------------------------------------------------------------------
 
 @st.cache_data
-def load_oiv7_classes(filepath: str = "SortMeAI/classes.txt") -> list[str]:
+def load_oiv7_classes(filepath: str = "classes.txt") -> list[str]:
     classes = []
     try:
         with open(filepath) as f:
